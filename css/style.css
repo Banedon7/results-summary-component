@@ -39,10 +39,19 @@ html {
 }
 
 .section-result {
+  border-radius: 0 0 2rem 2rem;
   background-image: linear-gradient(var(--light-slate-blue-background),var(--light-royal-blue-background)); 
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.title {
+  margin: 1.25rem 0;
+  color: var(--light-lavender);
+  font-family: var(--hanken-grotesk);
+  font-weight: 500;
+  font-size: 1rem;
 }
 
 .circle {
