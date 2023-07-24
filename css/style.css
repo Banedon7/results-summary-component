@@ -10,8 +10,8 @@
   --light-slate-blue-background: hsl(252, 100%, 67%);
   --light-royal-blue-background: hsl(241, 81%, 54%);
 
-  --violet-blue-circle: hsla(256, 72%, 46%, 1);
-  --persian-blue-circle: hsla(241, 72%, 46%, 0);
+  --violet-blue-circle: hsla(256, 72%, 46%, 0.7);
+  --persian-blue-circle: hsla(241, 72%, 46%, 0.6);
 
   /* Colores neutrales */
   --white: hsl(0, 0%, 100%);
@@ -91,14 +91,14 @@ html {
   margin-top: 2rem;
   margin-bottom: 0.5rem;
   color: var(--pale-blue);
-  font-size: 1.35rem;
+  font-size: 1.3rem;
   font-family: var(--hanken-grotesk);
 }
 
 .paragraph {
   margin-top: 0;
   margin-bottom: 1rem;
-  color: hsla(241, 100%, 89%, 0.7);
+  color: hsla(241, 100%, 89%, 0.75);
   font-size: 0.9rem;
   font-family: var(--hanken-grotesk);
   line-height: 1.5;
