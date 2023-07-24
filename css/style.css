@@ -84,3 +84,16 @@ html {
   font-size: .85rem;
   font-family: var(--hanken-grotesk);
 }
+
+.user-note {
+  margin-top: 2rem;
+  margin-bottom: 0;
+  color: var(--pale-blue);
+  font-size: 1.35rem;
+  font-family: var(--hanken-grotesk);
+}
+
+.paragraph {
+  margin-top: 0;
+  color: hsla(241, 100%, 89%, 0.7);
+}
