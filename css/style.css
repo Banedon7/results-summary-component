@@ -72,7 +72,7 @@ html {
 }
 
 .result-user {
-  margin: 1.5rem 0 .5rem 0;
+  margin: 1.5rem 0 0.5rem 0;
   color: var(--pale-blue);
   font-size: 3rem;
   font-family: var(--hanken-grotesk);
@@ -82,13 +82,13 @@ html {
 .result-total {
   margin: 0;
   color: hsla(241, 100%, 89%, 0.5);
-  font-size: .85rem;
+  font-size: 0.85rem;
   font-family: var(--hanken-grotesk);
 }
 
 .user-note {
   margin-top: 2rem;
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
   color: var(--pale-blue);
   font-size: 1.35rem;
   font-family: var(--hanken-grotesk);
@@ -96,5 +96,9 @@ html {
 
 .paragraph {
   margin-top: 0;
+  margin-bottom: 1rem;
   color: hsla(241, 100%, 89%, 0.7);
+  font-size: 0.9rem;
+  font-family: var(--hanken-grotesk);
+  line-height: 1.5;
 }
