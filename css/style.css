@@ -66,8 +66,8 @@ html {
     var(--violet-blue-circle),
     var(--persian-blue-circle)
   );
-  width: 120px;
-  height: 120px;
+  width: 117px;
+  height: 117px;
   border-radius: 50%;
   text-align: center;
 }
@@ -99,7 +99,7 @@ html {
   margin-top: 0;
   margin-bottom: 1rem;
   color: hsla(241, 100%, 89%, 0.75);
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-family: var(--hanken-grotesk);
   line-height: 1.5;
 }
