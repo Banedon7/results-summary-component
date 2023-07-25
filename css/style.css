@@ -103,3 +103,19 @@ html {
   font-family: var(--hanken-grotesk);
   line-height: 1.5;
 }
+
+.section-sumary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.summary {
+  color: var(--dark-gray-blue);
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+  font-size: 1rem;
+  font-family: var(--hanken-grotesk);
+  font-weight: 800; 
+}
