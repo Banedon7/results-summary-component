@@ -151,13 +151,15 @@ html {
 
 .memory {
   color: var(--orangey-yellow);
+  margin-right: 0.1rem;
 }
 
 .verbal {
   color: var(--green-teal);
-  margin-right: 1rem;
+  margin-right: 0.8rem;
 }
 
 .visual {
   color: var(--cobalt-blue);
+  margin-right: 0.9rem;
 }
