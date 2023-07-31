@@ -134,16 +134,14 @@ html {
 }
 
 .card-result-stat {
-  color: var(--dark-gray-blue);
-  font-size: 0.95rem;
+  color: hsl(224, 30%, 25%);
   margin-left: 8.5rem;
   margin-right: 0.2rem;
   font-weight: 800;
 }
 
 .card-result-stat-gray {
-  color: var(--light-lavender);
-  font-size: 0.95rem;
+  color: hsl(241, 100%, 80%);
   font-weight: 800;
 }
 
