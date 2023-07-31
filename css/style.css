@@ -48,7 +48,6 @@ html {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 47.5vh;
 }
 
 .title {
@@ -97,7 +96,7 @@ html {
 
 .paragraph {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 2.5rem;
   color: hsla(241, 100%, 89%, 0.75);
   font-size: 0.85rem;
   font-family: var(--hanken-grotesk);
@@ -117,5 +116,50 @@ html {
   margin-left: 1.5rem;
   font-size: 1rem;
   font-family: var(--hanken-grotesk);
-  font-weight: 800; 
+  font-weight: 800;
+}
+
+.card-stat {
+  margin-left: 2.4rem;
+  margin-bottom: 1.8rem;
+  font-size: 0.9rem;
+  font-family: var(--hanken-grotesk);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.card-icons {
+  float: left;
+  margin-right: 0.6rem;
+}
+
+.card-result-stat {
+  color: var(--dark-gray-blue);
+  font-size: 0.95rem;
+  margin-left: 8.5rem;
+  margin-right: 0.2rem;
+  font-weight: 800;
+}
+
+.card-result-stat-gray {
+  color: var(--light-lavender);
+  font-size: 0.95rem;
+  font-weight: 800;
+}
+
+.reaction {
+  color: var(--light-red);
+}
+
+.memory {
+  color: var(--orangey-yellow);
+}
+
+.verbal {
+  color: var(--green-teal);
+  margin-right: 1rem;
+}
+
+.visual {
+  color: var(--cobalt-blue);
 }
