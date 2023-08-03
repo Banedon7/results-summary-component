@@ -186,15 +186,22 @@ html {
 
   .section-result {
     border-radius: 2rem;
-    width: 25%;
-    height: 50%;
+    width: 20%;
+    height: 45%;
   }
 
   .title {
-    margin: 2rem 0 1.5rem 0;
+    margin: 2rem 0 1.7rem 0;
+  }
+
+  .circle {
+    width: 140px;
+    height: 140px;
+    padding-top: 0.5rem;
   }
 
   .section-sumary {
-    width: 25%;
+    width: 20%;
+    height: 45%;
   }
 }
