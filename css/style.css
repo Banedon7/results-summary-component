@@ -189,7 +189,7 @@ html {
   .section-result {
     border-radius: 2rem;
     width: 22%;
-    height: 42%;
+    height: auto;
   }
 
   .title {
@@ -197,14 +197,14 @@ html {
   }
 
   .circle {
-    width:8.1rem;
+    width: 8.1rem;
     height: 8.1rem;
     padding-top: 0.5rem;
   }
 
   .section-sumary {
     width: 22%;
-    height: 42%;
+    height: auto;
   }
 
   .result-user {
@@ -222,5 +222,35 @@ html {
     padding: 0 3rem;
     text-align: center;
     color: hsla(249, 18%, 92%, 0.8);
+  }
+
+  .summary {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+    font-size: 1rem;
+  }
+
+  .card-stat {
+    margin-left: 2.7rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.85rem;
+    font-family: var(--hanken-grotesk);
+    font-weight: 700;
+    line-height: 1.4;
+  }
+
+  .card-result-stat {
+    margin-left: 4.5rem;
+    margin-right: 0.2rem;
+  }
+
+  .card-button {
+    width: 82%;
+    height: 2.8rem;
+    margin: 1rem auto 0rem auto;
+    border-radius: 1.5rem;
+    font-size: 0.87rem;
+    font-weight: 500;
   }
 }
