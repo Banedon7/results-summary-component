@@ -188,8 +188,9 @@ html {
 
   .section-result {
     border-radius: 2rem;
-    width: 22%;
+    width: 20%;
     height: auto;
+    box-shadow: 0 10px 10px rgba(209, 221, 225, 0.8);
   }
 
   .title {
@@ -205,6 +206,7 @@ html {
   .section-sumary {
     width: 22%;
     height: auto;
+    box-shadow: 0 10px 10px rgba(209, 221, 225, 0.8);
   }
 
   .result-user {
@@ -219,21 +221,21 @@ html {
   .paragraph {
     margin-top: 0.4rem;
     font-size: 0.8rem;
-    padding: 0 3rem;
+    padding: 0 2.5rem;
     text-align: center;
-    color: hsla(249, 18%, 92%, 0.8);
+    color: hsla(249, 18%, 92%, 0.7);
   }
 
   .summary {
-    margin-top: 2rem;
-    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
     margin-left: 2rem;
     font-size: 1rem;
   }
 
   .card-stat {
     margin-left: 2.7rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.3rem;
     font-size: 0.85rem;
     font-family: var(--hanken-grotesk);
     font-weight: 700;
@@ -241,16 +243,24 @@ html {
   }
 
   .card-result-stat {
-    margin-left: 4.5rem;
+    margin-left: 3.5rem;
     margin-right: 0.2rem;
   }
 
   .card-button {
-    width: 82%;
+    width: 78%;
     height: 2.8rem;
-    margin: 1rem auto 0rem auto;
+    margin: 1rem auto 2rem auto;
     border-radius: 1.5rem;
     font-size: 0.87rem;
     font-weight: 500;
+  }
+
+  .card-button:hover {
+    cursor: pointer;
+    background-image: linear-gradient(
+      var(--light-slate-blue-background),
+      var(--light-royal-blue-background)
+    );
   }
 }
